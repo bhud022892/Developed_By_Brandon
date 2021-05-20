@@ -577,7 +577,7 @@ nav .social-media-wrapper .social-media .sm-link:hover {
 
 .motto {
   padding: 3rem;
-  background-color: #e5e5dc;
+  background-color: #26495c;
 }
 
 .motto .container {
@@ -588,7 +588,6 @@ nav .social-media-wrapper .social-media .sm-link:hover {
 
 .motto .container .quote-wrapper {
   margin: auto;
-  text-align: center;
   font-family: "Cabin", sans-serif;
   font-weight: 300;
 }
@@ -597,8 +596,7 @@ nav .social-media-wrapper .social-media .sm-link:hover {
   position: relative;
   font-size: 2.7rem;
   margin-bottom: 1rem;
-  padding: 0 3rem;
-  color: #26495c;
+  color: #e5e5dc;
 }
 
 .motto .container .quote-wrapper .quote span {
@@ -610,11 +608,12 @@ nav .social-media-wrapper .social-media .sm-link:hover {
   letter-spacing: 1px;
   font-size: 1.8rem;
   color: #c4a35a;
+  text-align: right;
 }
 
 .portfolio {
   padding: 3rem;
-  background-color: #c4a35a;
+  background-color: #e5e5dc;
 }
 
 .portfolio .container {
@@ -632,7 +631,7 @@ nav .social-media-wrapper .social-media .sm-link:hover {
   display: block;
   font-size: 1rem;
   text-transform: uppercase;
-  color: #e5e5dc;
+  color: #c4a35a;
   letter-spacing: 3px;
   margin-bottom: 1rem;
 }

@@ -444,7 +444,7 @@ nav {
 // Motto 
 .motto{
     padding: 3rem;
-    background-color: $white;
+    background-color: $blue;
 
     .container {
         max-width: 120rem;
@@ -452,15 +452,15 @@ nav {
         padding: 3rem;
         .quote-wrapper{
             margin: auto;
-            text-align: center;
+            // text-align: center;
             font-family: $body-font;
             font-weight: 300;
             .quote{
                 position: relative;
                 font-size: 2.7rem;
                 margin-bottom: 1rem;
-                padding: 0 3rem;
-                color: $blue;
+                // padding: 0 3rem;
+                color: $white;
                 span{
                     color: $gold;
                 }
@@ -470,6 +470,7 @@ nav {
                 letter-spacing: 1px;
                 font-size: 1.8rem;
                 color: $gold;
+                text-align: right;
             }
         }
     }
@@ -478,7 +479,7 @@ nav {
 // Portfolio
 .portfolio{
     padding: 3rem;
-    background-color: $gold;
+    background-color: $white;
     .container {
         max-width: 120rem;
         margin: auto;
@@ -491,7 +492,7 @@ nav {
                 display: block;
                 font-size: 1rem;
                 text-transform: uppercase;
-                color: $white;
+                color: $gold;
                 letter-spacing: 3px;
                 margin-bottom: 1rem;
             }
