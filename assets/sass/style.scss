@@ -317,130 +317,6 @@ nav {
     }
 }
 
-// Expertise
-.expertise {
-    padding: 3rem;
-    background-color: $gold;
-    .container {
-        margin: auto;
-        max-width: 120rem;
-        padding: 3rem;
-    }
-
-    .heading-group {
-        color: $blue;
-        margin-bottom: 5rem;
-
-        .section-head-small {
-            display: block;
-            font-size: 1rem;
-            text-transform: uppercase;
-            color: $white;
-            letter-spacing: 3px;
-            margin-bottom: 1rem;
-        }
-
-        .section-head-large {
-            font-size: 1.8rem;
-            font-family: $heading-font;
-            text-transform: uppercase;
-            letter-spacing: .5rem;
-        }
-    }
-
-    .grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-        gap: 2rem;
-        @media screen and (max-width: 768px){
-            grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-        }
-        a{
-            text-decoration: none;
-            color: $blue;
-            &:hover{
-                color: $gold;
-            }
-        }
-        .grid-item {
-            background-color: $white;
-            box-shadow: $shadow;
-            padding: 2rem;
-            text-align: center;
-            border-bottom: 5px solid $blue;
-            .item-icon{
-                font-size: 2.4rem;
-            }
-            .expertise-line{
-                margin: 6px auto;
-                background-color: $gold;
-                border: 1px solid $gold;
-                width: 60px;
-            }
-        }
-    }
-}
-
-// Technologies
-.technologies {
-    padding: 3rem;
-    background-color: $blue;
-
-    .container {
-        max-width: 120rem;
-        margin: auto;
-        padding: 3rem;
-
-        .heading-group {
-            color: $white;
-            margin-bottom: 5rem;
-
-            .section-head-small {
-                display: block;
-                font-size: 1rem;
-                text-transform: uppercase;
-                color: $gold;
-                letter-spacing: 3px;
-                margin-bottom: 1rem;
-            }
-
-            .section-head-large {
-                font-size: 1.8rem;
-                font-family: $heading-font;
-                text-transform: uppercase;
-                letter-spacing: .5rem;
-            }
-        }
-        
-    }
-    
-    .grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-        gap: 2rem;
-
-        @media screen and (max-width: 768px) {
-            grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-        }
-
-        .grid-item {
-            background-color: $white;
-            box-shadow: $shadow;
-            padding: 2rem;
-            border-bottom: 5px solid $gold;
-
-            .item-skill {
-                text-align: center;
-            }
-
-            img {
-                display: inline-block;
-                width: 60px;
-            }
-        }
-    }
-}
-
 // Motto 
 .motto{
     padding: 3rem;
@@ -532,7 +408,7 @@ nav {
                     top: 0;
                     left: 0;
                     padding: 2rem;
-                    text-transform: uppercase;
+                    // text-transform: uppercase;
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
